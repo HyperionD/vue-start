@@ -1,5 +1,5 @@
 <template>
-    <div class="index">
+    <div id="index">
         <p>Vuex Test: {{ test }}</p>
         <router-view></router-view>
     </div>

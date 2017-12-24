@@ -1,8 +1,9 @@
 import config from "./config";
+import "babel-polyfill";
 
 export default {
     // devtool: "source-map",
-    entry: config.entry,
+    entry: ["babel-polyfill", config.entry],
     output: {
         filename: config.dist_js_filename,
         path: config.dist_dir

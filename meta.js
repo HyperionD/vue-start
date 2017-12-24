@@ -31,6 +31,10 @@ module.exports = {
         "vuex": {
             "type": "confirm",
             "message": "Use vuex?"
+        },
+        "axios": {
+            "type": "confirm",
+            "message": "Use axios"
         }
     },
     "filters": {
